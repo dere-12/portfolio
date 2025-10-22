@@ -12,12 +12,24 @@
 :root {
   --font-family-sans: "Arial", sans-serif;
   --font-family-mono: "Monospace", monospace;
+
+  --color-background: #0a192f;
+  --color-primary: #5dedcd;
+  --color-text-white: #ccd6f6;
+  --color-text-gray: #5d6985;
+  --color-text-gray-light: #8892b0;
 }
 
 body {
   line-height: 1.5;
   scroll-behavior: smooth;
   font-family: var(--font-family-sans);
+  background-color: var(--color-background);
+}
+
+a {
+  color: var(--color-text-white);
+  text-decoration: none;
 }
 
 img,
