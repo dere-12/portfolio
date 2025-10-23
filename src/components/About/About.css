@@ -30,7 +30,6 @@
   width: 140px;
   height: 2px;
   background-color: var(--color-primary);
-  transition: width 0.3s ease-out;
 }
 
 .about-content .about-number {

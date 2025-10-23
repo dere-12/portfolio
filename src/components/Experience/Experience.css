@@ -1,0 +1,73 @@
+.experience-heading {
+  color: var(--color-text-white);
+  text-align: center;
+  margin: 4rem 0;
+  position: relative;
+}
+
+.experience-heading::after {
+  content: "";
+  position: absolute;
+  background-color: var(--color-primary);
+  width: 320px;
+  height: 2px;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+}
+
+.experience-number {
+  color: var(--color-primary);
+  font-family: var(--font-family-mono);
+}
+
+.experience-content {
+  display: flex;
+  gap: 4rem;
+  padding: 0 2rem 2rem 3rem;
+}
+
+.experience-column-work {
+  width: 60%;
+}
+
+.column-title {
+  color: var(--color-text-white);
+  margin-bottom: 10px;
+}
+
+.timeline {
+  padding-left: 10px;
+}
+
+.timeline-item {
+  margin-bottom: 1.5rem;
+}
+
+.item-description-list {
+  padding-left: 1.5rem;
+}
+
+.item-description-list li,
+.item-institution,
+.item-duration {
+  font-size: 14px;
+  color: var(--color-text-gray);
+}
+
+.item-description-list li {
+  margin-bottom: 6px;
+}
+
+.item-title {
+  color: var(--color-text-white);
+}
+
+.item-institution,
+.item-duration {
+  font-family: var(--font-family-mono);
+}
+
+.item-duration {
+  margin-bottom: 10px;
+}
