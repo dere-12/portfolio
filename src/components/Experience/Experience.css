@@ -9,7 +9,7 @@
   content: "";
   position: absolute;
   background-color: var(--color-primary);
-  width: 320px;
+  width: 310px;
   height: 2px;
   left: 50%;
   bottom: -6px;
