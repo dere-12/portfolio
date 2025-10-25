@@ -4,6 +4,11 @@
   justify-content: space-between;
   border-bottom: 1px solid #414141;
   padding: 10px 2rem 6px 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  background-color: var(--color-background);
 }
 
 .logo-container {
