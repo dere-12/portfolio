@@ -2,10 +2,10 @@ import {
   FiMail,
   FiMapPin,
   FiLinkedin,
-  FiTwitter,
   FiGithub,
   FiPhone,
 } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const contactInfo = [
   {
@@ -40,7 +40,7 @@ export const socialLinks = [
     link: "https://github.com/dere-12",
   },
   {
-    icon: FiTwitter,
+    icon: FaXTwitter,
     label: "Twitter",
     link: "#",
   },
