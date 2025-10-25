@@ -14,7 +14,7 @@ export const projects = [
       "A portfolio website showcases a collection of projects, technical skills, experience, and educational background.",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     image: portfolio,
-    liveLink: "",
+    liveLink: "https://derejekenea.vercel.app/",
     githubLink: "https://github.com/dere-12/portfolio.git",
   },
   {
